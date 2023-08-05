@@ -27,7 +27,9 @@ class UserCard extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.symmetric(
           horizontal: 10,
-          // api отдает только 2 страници по 6 елементов, сделано что-бы показать работу пагинации
+          // api віддає тільки 2 сторінки по 6 корисувачів, 
+          // зроблено щоб була можливість скролити на будь-якій діагоналі єкрану 
+          // і при скролі до низу списку підгружалася наступна сторінка 
           vertical: MediaQuery.of(context).size.height / 24,
         ),
         child: Card(
