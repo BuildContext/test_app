@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
     if (_scrollController.offset >=
             _scrollController.position.maxScrollExtent &&
         !_scrollController.position.outOfRange) {
-      // подгружаем следующую страницу
+      // довантажуємо наступну сторінку
       controller.fetchNextPage();
     }
   }
