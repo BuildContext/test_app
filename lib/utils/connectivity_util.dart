@@ -1,6 +1,5 @@
 import 'package:connectivity/connectivity.dart';
 
-/// Файл з утилітою для перевірки інтернет з'єднання
 
 /// Клас [ConnectivityUtil] з статичним методом [isConnected]
 /// для перевірки наявності інтернет з'єднання
